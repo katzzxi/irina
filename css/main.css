@@ -4,21 +4,21 @@
     font-family: 'Eugust';
     font-weight: normal;
     font-style: normal;
-    src: url(/fonts/EugustoFreePersonalUse-Regular.otf) format(opentype);
+    src: url('../fonts/EugustoFreePersonalUse-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Magistral';
     font-weight: normal;
     font-style: normal;
-    src: url(/fonts/Magistral.otf) format(opentype);
+    src: url('../fonts/Magistral.otf') format('opentype');
 }
 
-@font-face {
+@font-face {    
     font-family: 'Alexander';
     font-weight: normal;
     font-style: normal;
-    src: url(/fonts/Alexander.otf) format(opentype);
+    src: url('../fonts/alexander.otf') format('opentype');
 }
 
 * {
@@ -34,19 +34,8 @@
     --gallery-gap: calc(var(--index) * 7.5);
 }
 
-@font-face {
-    font-family: raleway-c;
-    src: url(../fonts/raleway-regular.woff2);
-}
 
-@font-face {
-    font-family: outfit-c;
-    src: url(../fonts/outfit-regular.woff2);
-}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: outfit-c;
-}
 
 .content, .hero, .main-header, .gallery > * {
     will-change: transform;
@@ -60,29 +49,15 @@ body {
     overflow-x: hidden;
 }
 
-.hero {
-    width: calc(var(--index) * 36);
-    position: absolute;
-    left: 37vw;
-    top: 22vh;
-    z-index: -1;
-}
 
-.main-header {
-    height: 100vh;
-}
+
+
 
 .container {
     padding: 0 7vw;
 }
 
-.main-title {
-    font-size: calc(var(--index) * 8);
-    position: absolute;
-    width: min-content;
-    bottom: 12vh;
-    line-height: .9;
-}
+
 
 .gallery {
     display: flex;
