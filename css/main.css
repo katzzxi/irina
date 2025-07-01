@@ -11,7 +11,7 @@
     font-family: 'Magistral';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/Magistral.otf') format('opentype');
+    src: url('../fonts/Magistral-Bold.woff') format('woff');
 }
 
 @font-face {    
